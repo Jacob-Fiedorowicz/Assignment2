@@ -1,0 +1,67 @@
+Status : COMPLETE - all checks passed
+Points : 40 / 40  (from check.py; counts only when the Git and GitHub checks pass)
+
+CS 1430 Assignment 2: The Cost of College
+GitHub user : Jacob-Fiedorowicz
+Repository  : https://github.com/Jacob-Fiedorowicz/Assignment2
+Commit      : 04e0880fa56d719160c35b6996cc441bc9759557
+Message     : Did all the things that I was asked  to do, and did a little extra by doing all the extra things to add, instead of just one of them like was required.
+Author      : Jacob Fiedorowicz <fiedorowiczj@uwplatt.edu>
+Committed   : 2026-10-10T17:26:50-05:00
+Checked     : 2026-10-10 17:27:44 Central Daylight Time
+Python      : 3.14.7
+
+================================================================
+CHECK RESULTS
+================================================================
+
+--- Toolchain ---
+[PASS] Python 3.14.7 is installed
+[PASS] main.py is in this folder
+[PASS] main.py runs without an error
+[PASS] The constants are unchanged
+[PASS] The launch lines are in place
+
+--- Your five functions (6 points each) ---
+[PASS] cost_per_semester gives back the right values  (6/6 pts)
+[PASS] cost_per_month gives back the right values  (6/6 pts)
+[PASS] cost_per_day gives back the right values  (6/6 pts)
+[PASS] cost_per_credit gives back the right values  (6/6 pts)
+[PASS] cost_per_class gives back the right values  (6/6 pts)
+
+--- Your program (10 points) ---
+[PASS] The menu runs from start to Q without an error  (5/5 pts)
+[PASS] Options 1 to 5 print all five amounts  (5/5 pts)
+
+--- Git and GitHub (required for your points to count) ---
+[PASS] Git is installed
+[PASS] This folder is a Git repository
+[PASS] You have committed your own work
+[PASS] Your latest changes are committed
+[PASS] Your repo is connected to GitHub
+[PASS] Your commit is pushed to GitHub
+
+POINTS FROM check.py: 40 / 40
+
+NOTE: AI_NOTES.md still has (write here) placeholders. Fill it in before you submit.
+
+================================================================
+PROGRAM OUTPUT  (typed: 14601, 15, 1, 2, 3, 4, 5, Q)
+================================================================
+Enter the total cost for one year of college: Enter the number of credits you will be taking this semester: THE COST OF COLLEGE:
+1 - Per Semsester
+2 - Per Month
+3 - Per Class Day
+4 - Per Credit
+5 - Per CS 1430 Class
+6 - Cost of Skipped Classes
+7 - Repeating a 3 Credit Course
+8 - Credit Load Comparison
+9 - Four-year Projection
+Q - Quit
+Choose an option: A Semester of College Costs: $7300.50
+Choose an option: A Month of College Costs: $1622.33
+Choose an option: A Full Class Day of College Costs: $97.34
+Choose an option: A Single Credit in College Costs: $486.70
+Choose an option: A Single, 50 Minute CS1430 Class Costs: $32.45
+Choose an option:
