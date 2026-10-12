@@ -58,7 +58,7 @@ def credit_load_comparision(annual_cost, credits):
     """Give back the cost comparison of different credit loads between 12 and 18 credits"""
     for credit_load in range(12, 19):
         cost_per_credit_this = cost_per_credit(annual_cost, credits) * credit_load
-        print(f"Cost per credit for {credit_load} credits: ${cost_per_credit_this:.2f}")
+        print(f"Cost per credit for {credit_load} credits: ${cost_per_credit_this:,.2f}")
 
 def four_year_projection(annual_cost, increase):
     """Give back the four-year cost projection with an annual increase"""
@@ -94,25 +94,25 @@ def main():
         # Show your menu here.
         choice = input("Choose an option: ")
         if choice == "1":
-            print(f"A Semester of College Costs: ${cost_per_semester(annual_cost):.2f}")
+            print(f"A Semester of College Costs: ${cost_per_semester(annual_cost):,.2f}")
         elif choice == "2":
-            print(f"A Month of College Costs: ${cost_per_month(annual_cost):.2f}")
+            print(f"A Month of College Costs: ${cost_per_month(annual_cost):,.2f}")
         elif choice == "3":
             print(f"A Full Class Day of College Costs: ${cost_per_day(annual_cost):.2f}")
         elif choice == "4":
-            print(f"A Single Credit in College Costs: ${cost_per_credit(annual_cost, credits):.2f}")
+            print(f"A Single Credit in College Costs: ${cost_per_credit(annual_cost, credits):,.2f}")
         elif choice == "5":
-            print(f"A Single, 50 Minute CS1430 Class Costs: ${cost_per_class(annual_cost, credits):.2f}")
+            print(f"A Single, 50 Minute CS1430 Class Costs: ${cost_per_class(annual_cost, credits):,.2f}")
         elif choice == "6":
             skipped_classes = int(input("Enter the number of CS 1430 classes you skipped: "))
-            print(f"The Cost of Skipping {skipped_classes} CS 1430 Classes is: ${cost_of_skipped_classes(annual_cost, credits, skipped_classes):.2f} of missed classes")
+            print(f"The Cost of Skipping {skipped_classes} CS 1430 Classes is: ${cost_of_skipped_classes(annual_cost, credits, skipped_classes):,.2f} of missed classes")
         elif choice == "7":
-            print(f"The cost of repeating a 3 credit course is: ${cost_of_repeating_course(annual_cost, credits):.2f}")
+            print(f"The cost of repeating a 3 credit course is: ${cost_of_repeating_course(annual_cost, credits):,.2f}")
         elif choice == "8":
             credit_load_comparision(annual_cost, credits)
         elif choice == "9":
             increase = float(input("Enter the annual cost increase per year: "))
-            print(f"The four-year cost projection is ${four_year_projection(annual_cost, increase):.2f} with a {increase*100:.2f}% annual increase in price")
+            print(f"The four-year cost projection is ${four_year_projection(annual_cost, increase):,.2f} with a {increase*100:.2f}% annual increase in price")
         if choice == "Q":
             break
 
