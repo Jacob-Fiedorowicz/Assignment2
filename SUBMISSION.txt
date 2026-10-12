@@ -4,11 +4,11 @@ Points : 40 / 40  (from check.py; counts only when the Git and GitHub checks pas
 CS 1430 Assignment 2: The Cost of College
 GitHub user : Jacob-Fiedorowicz
 Repository  : https://github.com/Jacob-Fiedorowicz/Assignment2
-Commit      : 04e0880fa56d719160c35b6996cc441bc9759557
-Message     : Did all the things that I was asked  to do, and did a little extra by doing all the extra things to add, instead of just one of them like was required.
+Commit      : a542067d6510f4300d59bc2b4bb7036157878844
+Message     : Removed a "write here" that was left in the directions.
 Author      : Jacob Fiedorowicz <fiedorowiczj@uwplatt.edu>
-Committed   : 2026-10-10T17:26:50-05:00
-Checked     : 2026-10-10 17:27:44 Central Daylight Time
+Committed   : 2026-10-12T08:42:58-05:00
+Checked     : 2026-10-12 08:43:06 Central Daylight Time
 Python      : 3.14.7
 
 ================================================================
@@ -43,8 +43,6 @@ CHECK RESULTS
 
 POINTS FROM check.py: 40 / 40
 
-NOTE: AI_NOTES.md still has (write here) placeholders. Fill it in before you submit.
-
 ================================================================
 PROGRAM OUTPUT  (typed: 14601, 15, 1, 2, 3, 4, 5, Q)
 ================================================================
@@ -59,8 +57,8 @@ Enter the total cost for one year of college: Enter the number of credits you wi
 8 - Credit Load Comparison
 9 - Four-year Projection
 Q - Quit
-Choose an option: A Semester of College Costs: $7300.50
-Choose an option: A Month of College Costs: $1622.33
+Choose an option: A Semester of College Costs: $7,300.50
+Choose an option: A Month of College Costs: $1,622.33
 Choose an option: A Full Class Day of College Costs: $97.34
 Choose an option: A Single Credit in College Costs: $486.70
 Choose an option: A Single, 50 Minute CS1430 Class Costs: $32.45
