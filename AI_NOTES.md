@@ -1,7 +1,7 @@
 # AI Review: Assignment 2
 
 Ask an AI assistant to review one of your functions, or to suggest test cases for it.
-Then fill in each section below. Replace every (write here) with your own words.
+Then fill in each section below. Replace every (write_here) with your own words.
 
 ## 1. The function and your prompt
 
