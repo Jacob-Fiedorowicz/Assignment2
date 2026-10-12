@@ -105,7 +105,7 @@ def main():
             print(f"A Single, 50 Minute CS1430 Class Costs: ${cost_per_class(annual_cost, credits):.2f}")
         elif choice == "6":
             skipped_classes = int(input("Enter the number of CS 1430 classes you skipped: "))
-            print(f"The Cost of Skipping {skipped_classes} CS 1430 Classes is: ${cost_of_skipped_classes(annual_cost, credits, skipped_classes)} of missed classes")
+            print(f"The Cost of Skipping {skipped_classes} CS 1430 Classes is: ${cost_of_skipped_classes(annual_cost, credits, skipped_classes):.2f} of missed classes")
         elif choice == "7":
             print(f"The cost of repeating a 3 credit course is: ${cost_of_repeating_course(annual_cost, credits):.2f}")
         elif choice == "8":
